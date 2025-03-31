@@ -1,0 +1,25 @@
+package dsa.java.basics;
+
+import java.util.Scanner;
+
+public class Input {
+	
+	public static boolean isPalindrome(String word) {
+		
+		word=word.toLowerCase();
+		System.out.println(word);
+		
+		return true;
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String word=sc.next();
+		
+		boolean bool=isPalindrome(word);
+
+	}
+
+}

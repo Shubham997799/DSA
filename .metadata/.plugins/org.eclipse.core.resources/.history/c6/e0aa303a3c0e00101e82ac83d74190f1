@@ -40,7 +40,7 @@ public class RotateArray {
 	private static void rotateArray(int[] arr, int d) {
 		int a = arr.length;
 		//d=d%a;
-		d=(d%a+a)%a; /// Adjust for negative d and ensure it's within [0, n-1];
+		d=(d%a+a)%a;
 
 		reverseArray(arr, 0, d - 1);
 		reverseArray(arr, d, a - 1);
